@@ -1,14 +1,13 @@
-# 🔥 Fire Fighting Robot
+##🔥 Fire Fighting Robot
 
-## 🚀 Overview
+##  Overview
 
 This project is an autonomous fire fighting robot built using Arduino.  
 It is capable of detecting fire, aligning itself towards the source, and activating a water pump to extinguish it.  
 The system also includes obstacle avoidance and manual control via Bluetooth.
 
----
 
-## ⚙️ Features
+##  Features
 
 - 🔹 Bluetooth-controlled movement (Forward, Backward, Left, Right)
 - 🔹 Obstacle detection using ultrasonic sensor
@@ -17,9 +16,8 @@ The system also includes obstacle avoidance and manual control via Bluetooth.
 - 🔹 Water pump activation using relay module
 - 🔹 Priority-based control system (Fire > Obstacle > Manual)
 
----
 
-## 🧠 System Logic
+##  System Logic
 
 The robot follows a priority-based control system:
 
@@ -33,9 +31,8 @@ When fire is detected:
 3. Activates water pump  
 4. Repeats until fire is no longer detected  
 
----
 
-## 🔧 Components Used
+## Components Used
 
 - Arduino UNO  
 - L298N Motor Driver  
@@ -46,7 +43,6 @@ When fire is detected:
 - HC-05 Bluetooth Module  
 - 18650 Lithium Batteries  
 
----
 
 ## ⚠️ Challenges Faced
 
@@ -55,22 +51,19 @@ When fire is detected:
 - Relay and water pump debugging  
 - Sensor calibration and alignment  
 
----
 
-## 🧪 Learnings
+##  Learnings
 
 - Embedded systems debugging  
 - Power management in hardware systems  
 - Real-time control logic design  
 - Sensor integration and calibration  
 
----
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - Mobile app integration  
 - Live data monitoring dashboard  
 - Camera-based fire detection  
 - Improved targeting using feedback control  
 
----
